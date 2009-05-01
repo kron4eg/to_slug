@@ -1,0 +1,6 @@
+Slugify any string using given trans_table
+
+# Install
+
+./script/plugin install git://github.com/kron4eg/to_slug.git
+cp vendor/plugins/to_slug/trans_table.yml config/trans_table.yml
