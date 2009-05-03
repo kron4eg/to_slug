@@ -19,3 +19,13 @@ or this
 >> "привет".slugify
 => "privet"
 
+# `spacer` parameter
+
+The optional `spacer` parameter can be passed to `to_slug`. This parameter 
+specifies the spacer character that is used in the slug. For example:
+
+>> "This is a longish title".to_slug "_"
+=> "this_is_a_longish_title"
+
+>> "This is a longish title".to_slug "+"
+=> "this+is+a+longish+title"
