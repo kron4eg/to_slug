@@ -5,9 +5,9 @@ Slugify any string using given trans_table
 ./script/plugin install git://github.com/kron4eg/to_slug.git
 cp vendor/plugins/to_slug/trans_table.yml config/trans_table.yml
 
-You can define your own trans table
+You can define your own transliteration table by editing the YAML file. 
 
-#Usage
+# Usage
 
 Use it like this
 
